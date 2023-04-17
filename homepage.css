@@ -41,6 +41,31 @@
     display: flexbox;
 }
 
+.introduction {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.introductionTwo {
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.flex-grid {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+
+.flex-grid .col {
+    width: 32%;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
 html {
     background-color: rgb(177, 172, 172);
 }
